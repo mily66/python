@@ -1,0 +1,27 @@
+import random
+print(random.randint(1,100))
+
+from random import randint
+list=[]
+for i in range(100):
+  p=randint(10,99)
+  list.append(p)
+
+def multiples(list):
+  give=[]
+  for item in list:
+    if item %5 and item %3 ==0:
+      give.append(item)
+    print(sum(give))
+  multiples(list)
+
+def Mily(list):
+  Cake=[]
+  for item in list:
+     for i in range(10,99):
+       if item %i==0:
+         break
+       else:
+         Cake.append(item)
+print(Mily)
+Mily(list)

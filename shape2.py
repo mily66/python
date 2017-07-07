@@ -1,0 +1,27 @@
+from turtle import *
+import math
+# Name your Turtle.
+Mily = Turtle()
+Mily.penup()
+setup(400,200)
+x_pos =50
+y_pos =50
+
+Mily.pendown()
+Mily.speed(10)
+answer=input("How many sides would you like?")
+intanswer= int(answer)
+color=input("what color would you like?")
+Mily.pencolor(color)
+Mily.fillcolor(color)
+Mily.begin_fill()
+for answer in range(intanswer):
+    Mily.forward(50)
+    Mily.right(360/intanswer)
+Mily.end_fill()
+def Shape(steps, angle):
+    Mily.forward(steps)
+    Mily.right(angle)
+
+Shape(50,360/intanswer)
+exitonclick()

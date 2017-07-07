@@ -1,0 +1,35 @@
+Animals=["Dog","Cat","Bird","Fish"]
+print(Animals)
+Animals[2]=1
+print(Animals[2])
+
+print(Animals)
+del Animals[2]
+print(Animals)
+
+Animals.append("Monkey")
+print(Animals)
+
+Animals.insert( 3,"Snake")
+print(Animals)
+
+Listoflist=[["Dog","Cat","Bird","Fish","Money","Snake"],[1,2,3,4,5,6]]
+print(Listoflist[1][1])
+print(Listoflist)
+print(len(Listoflist[1]))
+
+COLOR=[Red,Green,Blue]
+picture[p1,p2,p3,p4,p5]
+picturereal[[r,g,b],[r1,b1,g2]]
+
+import random
+Name=["Mily","Susan","Lauren","Amanda","Betty","Nicole","Jilliam","Katelyn","Sam","Sabrina"]
+Name2=["Salas","Vargas","Diaz","Jenner","Knowles","Torres","Perez","Brinson","Escobar","Allen"]
+print(random.choice(Name)(Name2))
+
+import random
+MainCourse=["Milanesa Chicken","Susan","Lauren","Amanda","Betty","Nicole","Jilliam","Katelyn","Sam","Sabrina"]
+Name2=["Salas","Vargas","Diaz","Jenner","Knowles","Torres","Perez","Brinson","Escobar","Allen"]
+SideDish = ["Potatoes","cheese","Bacon","SourCream","Chives"]
+Menu=[random.choice(SideDish),random.choice(Name),random.choice(Name2)]
+print(Menu)
